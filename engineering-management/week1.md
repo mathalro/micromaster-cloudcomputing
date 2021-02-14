@@ -41,10 +41,6 @@ There are three main categories of mail services:
 - Other Mail Services: Authentication and Anti-Span. Authentication can provide a Single Sign On to access organization systems. Anti-Span helps to filter undesirable mails like marketing messages.
 
 A mail server facilitate the sending and receiving of mail messages. The message flow is described below.
-
- 1. User creates and sends email in their device.
- 2. Device sends message to server hosting user mailbox.
- 3. User mailbox verify if it knows the recipient (another user in the same mailbox). If it knows, then it delivers the message
  
 ```mermaid
  sequenceDiagram
@@ -69,6 +65,6 @@ A mail server facilitate the sending and receiving of mail messages. The message
     MTA->>MX: Connect and send email over SMTP
     MX->>MDA: Delivery email to mailsystem
     MDA->>RECIPIENT USER: Stores and devliver email to recipient
-```
+```To visualize diagram install the extension [GitHub + Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe?hl=en)
 
 ## Website Cloud Migration
