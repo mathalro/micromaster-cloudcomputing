@@ -104,7 +104,7 @@ A website can provide several informations in page formats to an user using a we
     end
     
     CLIENT->>WEBSERVER: Requests data using IP
-    WEBSERVER-->>Returns data
+    WEBSERVER-->>CLIENT: Returns data
 ```
 ---
 ##### To visualize diagram install the extension [GitHub + Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe?hl=en)
