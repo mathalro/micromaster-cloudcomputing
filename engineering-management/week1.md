@@ -67,7 +67,7 @@ A mail server facilitate the sending and receiving of mail messages. The message
     MDA->>RECIPIENT USER: Stores and devliver email to recipient
 ```
 ---
-To visualize diagram install the extension [GitHub + Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe?hl=en)
+#### To visualize diagram install the extension [GitHub + Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe?hl=en)
 ---
 
 ## Website Cloud Migration
