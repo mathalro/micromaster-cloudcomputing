@@ -103,9 +103,17 @@ A website can provide several informations in page formats to an user using a we
      RIGHT DNS SERVER-->>CLIENT: Deliver the IP
     end
     
-    CLIENT->>WEBSERVER: Requests data using IP
+    CLIENT->>WEBSERVER: Requests data using IP and HTTP
     WEBSERVER-->>CLIENT: Returns data
 ```
 ---
 ##### To visualize diagram install the extension [GitHub + Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe?hl=en)
 ---
+
+## Common Issues on Migrations of Mail and Web Servers
+
+- Cloud based service meet the specifications of existing technical environment
+- Cloud based service us able to handle these specification and its expected growth
+- How cloud provider ensure that there is no organizational impact during migration
+- Whats is the cloud privider's test/validation plan
+- How cloud provider handle issues during and after migration
