@@ -29,3 +29,13 @@ File Transfer Protocol (FTP) is used when we need to transfer files between clie
 **FTPS** - FTP over SSL (Secure Socket Layer). It uses User ID, password and CA Signed Certificate. 
 
 # SSH
+
+# Cloud Migration
+
+## Mail Server Cloud Migration
+
+There are three main categories of mail services:
+
+- Mail Transfer Agent (MTA): Software that transmits messages from sender to recipients that are connected locally or through the internet. 
+- Mail Delivery Agent (MDA): Software that delivery and stores the messages received from MTA to a local mailbox.
+- Other Mail Services: Authentication and Anti-Span. Authentication can provide a Single Sign On to access organization systems. Anti-Span helps to filter undesirable mails like marketing messages.
