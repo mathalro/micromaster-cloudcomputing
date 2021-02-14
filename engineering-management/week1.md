@@ -46,10 +46,11 @@ A mail server facilitate the sending and receiving of mail messages. The message
  2. Device sends message to server hosting user mailbox.
  3. User mailbox verify if it knows the recipient (another user in the same mailbox). If it knows, then it delivers the message
  
- sequenceDiagram
-    participant John
-    participant Alice
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
+::: mermaid
+  sequenceDiagram
+    participant Customer
+    participant Management Portal
+    participant Management API
+:::
 
 ## Website Cloud Migration
