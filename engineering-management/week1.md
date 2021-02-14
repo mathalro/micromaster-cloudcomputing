@@ -1,3 +1,7 @@
+# IP - Internet Protocol
+
+**Responsabilities** - Switching packets into datagrams and addressing devices
+
 # TCP - Transmission Control Protocol
 
 **Responsabilities** - creation, reliability of delivery and assembling of packets of data. 
