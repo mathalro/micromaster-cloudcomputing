@@ -73,3 +73,39 @@ A mail server facilitate the sending and receiving of mail messages. The message
 Some useful commands are: nslookup or dig/host for lookup the IP address of mail servers providers.
 
 ## Website Cloud Migration
+
+A website can provide several informations in page formats to an user using a web browser. The user supply a Uniform Resource Locator (URL) to the browser. A server that serve the pages of a website is called Webserver and it uses the Hypertext Transfer Protocol to serve these pages.
+
+```mermaid
+ sequenceDiagram
+    participant CLIENT
+    participant LOCAL DNS
+    participant DNS SERVER
+    participant ROOT SERVER
+    participant TOP LEVEL SERVER
+    participant RIGHT DNS SERVER
+    participant WEBSERVER
+
+    CLIENT->>LOCAL DNS: Browse with typed URL
+    
+    alt If local DNS has the entry
+     LOCAL DNS->>CLIENT: Deliver the IP
+    else
+     LOCAL DNS->>DNS SERVER: Request resolution for DNS
+    end
+    
+    alt If DNS SERVER has the entry
+     DNS SERVER-->>CLIENT: Deliver the IP
+    else
+     DNS SERVER->>ROOT SERVER: Request resolution for DNS
+     ROOT SERVER->>TOP LEVEL SERVER: Request resolution for DNS
+     TOP LEVEL SERVER->>RIGHT DNS SERVER: Request resolution for DNS
+     RIGHT DNS SERVER-->>CLIENT: Deliver the IP
+    end
+    
+    CLIENT->>WEBSERVER: Requests data using IP
+    WEBSERVER-->>Returns data
+```
+---
+##### To visualize diagram install the extension [GitHub + Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe?hl=en)
+---
