@@ -51,6 +51,13 @@ A mail server facilitate the sending and receiving of mail messages. The message
     participant Customer
     participant Management Portal
     participant Management API
+
+    Customer->>Management Portal: Enter landing page and fill creation details
+    Note over Customer,Management Portal: Need to define creation details
+
+    Management Portal->>Management API: Send the information to the API
+    Management API->>Queue: Post: offerCreationStarted
+    Management API-->>Management Portal: Show 'Creating' Message when status = started
 ```
 
 ## Website Cloud Migration
