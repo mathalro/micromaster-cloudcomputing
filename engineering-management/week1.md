@@ -66,6 +66,9 @@ A mail server facilitate the sending and receiving of mail messages. The message
     
     MTA->>DNS: Lookup for user's mailbox
     DNS-->>MTA: Give the MX
+    MTA->>MX: Connect and send email over SMTP
+    MX->>MDA: Delivery email to mailsystem
+    MDA->>RECIPIENT USER: Stores and devliver email to recipient
 ```
 
 ## Website Cloud Migration
