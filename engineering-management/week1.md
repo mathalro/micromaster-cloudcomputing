@@ -70,4 +70,6 @@ A mail server facilitate the sending and receiving of mail messages. The message
 ##### To visualize diagram install the extension [GitHub + Mermaid](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe?hl=en)
 ---
 
+Some useful commands are: nslookup or dig/host for lookup the IP address of mail servers providers.
+
 ## Website Cloud Migration
