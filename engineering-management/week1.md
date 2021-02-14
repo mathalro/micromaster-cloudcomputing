@@ -39,3 +39,17 @@ There are three main categories of mail services:
 - Mail Transfer Agent (MTA): Software that transmits messages from sender to recipients that are connected locally or through the internet. 
 - Mail Delivery Agent (MDA): Software that delivery and stores the messages received from MTA to a local mailbox.
 - Other Mail Services: Authentication and Anti-Span. Authentication can provide a Single Sign On to access organization systems. Anti-Span helps to filter undesirable mails like marketing messages.
+
+A mail server facilitate the sending and receiving of mail messages. The message flow is described below.
+
+ 1. User creates and sends email in their device.
+ 2. Device sends message to server hosting user mailbox.
+ 3. User mailbox verify if it knows the recipient (another user in the same mailbox). If it knows, then it delivers the message
+ 
+ sequenceDiagram
+    participant John
+    participant Alice
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+
+## Website Cloud Migration
