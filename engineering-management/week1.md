@@ -57,6 +57,11 @@ A mail server facilitate the sending and receiving of mail messages. The message
     participant MDA
 
     SENDER USER->>MAILBOX SERVER: Write and Send email
+    alt If mailbox knows recipient
+     MAILBOX SERVER->>RECIPIENT USER: Deliver email to recipient
+    else
+     MAILBOX SERVER->>MTA: Transmit the message
+    end
 ```
 
 ## Website Cloud Migration
