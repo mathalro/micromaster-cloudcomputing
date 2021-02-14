@@ -117,3 +117,7 @@ A website can provide several informations in page formats to an user using a we
 - How cloud provider ensure that there is no organizational impact during migration
 - Whats is the cloud privider's test/validation plan
 - How cloud provider handle issues during and after migration
+
+## Common Issues for any Cloud Migration
+
+
