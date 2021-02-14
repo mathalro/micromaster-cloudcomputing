@@ -2,6 +2,14 @@
 
 **Responsabilities** - Switching packets into datagrams and addressing devices
 
+**Addressing** - Manually or Dinamic using Dinamic Host Configuration Protocol (DHCP).
+
+**Human Readable** - Numeric address are not readable by humans, so Domain Name System (DNS) are used to give a name for the IP Address.
+
+**Name Resolution** - The DNS is resolved by a sequence of queries, starting at top level domain label (root server) and recursively querying after each server anwser. There are 13 root servers. This recursive query follows the Fully Qualified Domain Name (FQDN).
+
+**FQDN** - It is a Domain Name that specifies its exact location in tree hierarchy of DNS. 
+
 # TCP - Transmission Control Protocol
 
 **Responsabilities** - creation, reliability of delivery and assembling of packets of data. 
