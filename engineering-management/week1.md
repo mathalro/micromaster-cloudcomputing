@@ -120,4 +120,15 @@ A website can provide several informations in page formats to an user using a we
 
 ## Common Issues for any Cloud Migration
 
+**Legal and Regulatory Requirements**
 
+- Privacy Issues: privacy regulation are not consistent worldwide and there is a risk that cloud provider does not comply with privacy regulations. 
+- Compliance Issues: It is necessary to make sure tyha provider achieve compliance, enforcement and penalties for failures. How multi tenancy in cloud affect security and compliance. Where data center is located. 
+
+**Best Practices**
+
+- Assess the needs of the business
+- Cloude solutions thet are mature and envolving self-service management solutions, quick and on demand elasticity, extensive reporting, atumated management solutions
+- Create compliance program
+- Assess perfomance of current on premisse system to establish a baseline and compare with assessment on the cloud
+- Consider Industry best practices and standards
