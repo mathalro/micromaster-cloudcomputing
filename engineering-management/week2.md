@@ -27,3 +27,32 @@ Class E - 240.0.0.0 = 11110000.00000000.00000000.00000000 to 255.255.255.255 = 1
 This addressing notation starts with the network address with the appropriated number of zeros at right of address, followed by slash char and by the length of a prefix (mask of bits) that define the size of the network. 
 
 192.168.0.0/24 - 256 addresses - from 192.168.0.0 to 192.168.0.255 
+
+
+# RFP - Request For Proposal
+
+The RFP occurs when a project involves a contract and is issued by an organization wanting a project done. When deal with cloud computing, the RFP may require you to add key people with special skills, and these key people are added to or removed from the project without permission. These key people also are involved in writing the proposal and helping with Best and Final Offer (BAFO). 
+
+## RFP Requirements
+
+Suggestion of Requirement gathering session
+
+* Use a whiteboard and allow all stakeholders to list, rank and catogorize requirements
+* Stakeholders use note pad to write requirements on them. After, organize these requirements in categories. Then, all stakeholder are given a limited number of stickers to indicate priority requirements. They can use as many stickers in a requirement, but they are limited to the initial number of stickers.
+
+## RFP Components
+
+**Purpose and Goals** - Explain the purpose behind the RFP and goals of the project associated with the RFP
+**Background Narrative** - Describe any background information that may be relevant to organizations responding RFP
+**Financials** - Describe funding available for the contract, restriction on the use of this funding, information on financials required, and any other financial matters. 
+**Entity Eligibility** - Who is elegible to respond the RFP and might specify required certification, licensing, etc. 
+**Scope of Work** - Details what you are requesting from interested entitites
+**Reporting Requirements** - Specify any reporting that the interested vendor must conduct. 
+**Proposal Content Requirements** - Detailed Specification of all items that must be provided by the vendor in their response. 
+**Proposal Selection / Evaluation Criteria** - Specify what is considered to select a vendor proposal.
+**Timelines/Deadlines** - Specify timeline for the RFP process, submission, performe work and decisions.
+**Notification Process** - Describe process for contract award, submitting and any other notifications.
+**Negotiation Process** - How contract negotiations will take place.
+**Appeals Process** - The process for contract award decistion
+**Conflict of Interest Disclosures** - Outlines any conflict of interest that can exists.
+**Appendices** - Any additional information not covered
